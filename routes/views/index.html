@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/index.css" !important>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página inicial</title>
 </head>
+
 <body>
     <header>
         <nav class="nav-bar">
@@ -26,10 +28,10 @@
             </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="/img/botao.png"></button>
+                <button onclick="menuShow()"><img class="icon" src="/img/hamburger.svg"></button>
             </div>
         </nav>
-        <div class="mobile-menu open">
+        <div class="mobile-menu ">
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">Receitas Maria</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Bolos</a></li>
@@ -42,11 +44,25 @@
         </div>
     </header>
     <main>
-
+        <div class="container-img">
+                <div class="pesquisar">
+                    <h1 class="h1-main">
+                        Pesquise sua receita!
+                    </h1>
+                    <p>Receitas direto do caderno da Maria!</p>
+                </div>
+                <form class="input-container" action="#">
+                    <input class="input-style" type="text" placeholder="Pesquise sua receita!">
+                    <button class="button-style" src="#">
+                        <img src="/img/lupa.svg" alt="">
+                    </button>
+                </form>
+            </div>
     </main>
     <footer>
 
     </footer>
     <script src="js/index.js"></script>
 </body>
+
 </html>

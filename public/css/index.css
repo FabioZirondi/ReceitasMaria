@@ -15,6 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
+   
 }
 
 .logo {
@@ -111,4 +112,62 @@ header {
     }
 }
 
+.container-img {
+    background-image: url('https://wallpapers.com/images/featured/food-4k-1pf6px6ryqfjtnyr.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(75vh - 100px);
+    padding-top: 100px;
+}
 
+.pesquisar {
+    margin: 120px 0px 40px 0px ;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.input-style {
+    text-align: center;
+    width: 70vh; 
+    height: 40px;
+    max-width: 90%;
+    border-radius: 10px 0 0 10px;
+    font-size: 16px; 
+    box-sizing: border-box;
+    border: 1px solid #000000;
+}
+
+.button-style {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc; 
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #000000;
+    border-left: none; 
+    height: 40px; 
+    width: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.button-style:hover {
+    background-color: #d0d0d0; 
+}
+
+.button-style img {
+    width: 60%;
+    height: 60%;
+}
