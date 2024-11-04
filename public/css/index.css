@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@87.3,200..900&family=Nanum+Gothic&display=swap');
-
+    /* HEADER */
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: #8d364f;
+    background-color: #243E36;
     box-shadow: 0px 3px 10px 0px;
 }
 
@@ -21,7 +21,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    color: white;
+    color: #D3D5D4;
 }
 
 .nav-list {
@@ -42,20 +42,20 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: #fff;
+    color: #D3D5D4;
     font-weight: 400;
 }
 
 .login-button button {
     border: none;
-    background-color: black;
+    background-color: #0F1A17;
     padding: 10px 15px;
     border-radius: 5px;
 }
 
 .login-button button a {
     text-decoration: none;
-    color: #fff;
+    color: #D3D5D4;
     font-weight: 500;
     font-size: 1.1rem;
 }
@@ -112,20 +112,26 @@ header {
     }
 }
 
+    /* MAIN  */
+
 .container-img {
     background-image: url('https://wallpapers.com/images/featured/food-4k-1pf6px6ryqfjtnyr.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: calc(75vh - 100px);
+    min-height: calc(50vh - 50px);
     padding-top: 100px;
 }
 
 .pesquisar {
-    margin: 120px 0px 40px 0px ;
+    margin: 100px 0px 40px 0px ;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: WHITE;
+}
+
+.pesquisar h1{
+    font-size: 48px;
 }
 
 .input-container {
@@ -147,7 +153,7 @@ header {
 }
 
 .button-style {
-    background-color: #f0f0f0;
+    background-color: #d0d0d0;
     border: 1px solid #ccc; 
     border-radius: 0 10px 10px 0;
     border: 1px solid #000000;
@@ -164,7 +170,7 @@ header {
 }
 
 .button-style:hover {
-    background-color: #d0d0d0; 
+    background-color: #a8a8a8; 
 }
 
 .button-style img {
